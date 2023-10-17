@@ -5,7 +5,7 @@
     font-family: sans-serif;
 }
 .section1{
-    background-image: url('img/two-businessmen-shaking-hands-as-sign-agreement.jpg');
+    background-image: url('img/mario-gogh-VBLHICVh-lI-unsplash.jpg');
     background-size: cover;
     width: 1349px;
     height: 650px;
@@ -269,7 +269,8 @@ a{
 #f-color{
     color: black;
     font-size: 40px;
-    margin-top: 40px;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 .circle-btn{
     width: 40px;
@@ -322,30 +323,127 @@ a{
 }
 .sec5{
     width: 830px;
-    height: 350px;
+    height: 500px;
     margin: auto;
     margin-top: 100px;
     display: flex;
     justify-content: space-between;
+    gap: 50px;
 }
 .box4{
-    width: 50%;
-    height: 10px;
+    margin-top: 60px;
+    width: 35%;
+    height: 180px;
 }
+.box4 ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 2px;
+
+}
+.box4 li{
+    list-style: none;    
+}
+#p-font{
+    font-size: 12px;
+    color: rgba(15, 14, 14,0.7);
+    margin-bottom: 40px;
+}
+.progress-bar{ 
+    background-color: rgb(192, 192, 192); 
+    margin-top: 5px;
+}
+.skill { 
+    background-color: rgb(255, 102, 0); 
+    padding: 1.5%; 
+    text-align: right; 
+    font-size: 20px;
+} 
+.marketing{ 
+    width: 75%; 
+}
+.development{ 
+    width: 80%; 
+}
+.converting{
+    width: 65%;
+} 
 .box5{
     display: flex;
     flex: 1;
     flex-wrap: wrap;
     justify-content: space-between;
-    width: 50%;
+    width: 90%;
+    color: #000033;
+    justify-items: center;
+    margin-left: 100px;
 }
 #btn3{
-    width: 140px;
+    width: 130px;
     color: white;
     background-color: orangered;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
-.boximg {
-    width: 40%;
-    height: 100px;
-    margin-bottom: 5px;
+.t-center h2 {
+    margin-top: 8px;
+    margin-left: 35px;
+}
+.t-center h5{
+    font-size: 11px;
+    margin-left: 50px;
+}
+.sec6{
+    width: 1349px;
+    display: flex;
+    gap: 1px;
+    margin-top:60px;
+}
+.map{
+    width: 50%;
+}
+.info{
+    width: 50%;
+    background-color: rgb(229, 236, 238);
+}
+.info-inner{
+    width: 300px;
+    height: 400px;
+    margin-left: 60px;
+    margin-top: 50px;
+}
+.info-inner h1{
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+.info-inner p{
+    color: grey;
+    margin-bottom: 10px;
+}
+.info-inner input{
+    width: 300px;
+    height: 45px;
+    margin-top: 20px;
+    border: 2px solid #f5f5f5c2;
+    color: gray;
+}
+#input{
+    height: 100px;    
+}
+#bt{
+    background-color: orangered;
+    color: white;
+    border: 0px solid orangered;
+    border-radius: 5px;
+}
+.sec7{
+    background-color: #000033;
+    width: 1349px;
+    height: 350px;
+
+}
+.sec7inner{
+
 }
